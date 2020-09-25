@@ -1,0 +1,43 @@
+/* .App {
+  text-align: center;
+} */
+
+.App-header {
+  background-color: #89b0ae;
+  min-height: 8vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.title {
+  margin-right: 37%;
+}
+
+.navLinks {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2%;
+}
+
+
+.styledRecipeContainer {
+  /* border: 2px solid black; */
+  width: 45%;
+}
+
+.recipeList {
+  /* border: 2px solid purple; */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.instruction {
+  line-height: 1.5;
+}
